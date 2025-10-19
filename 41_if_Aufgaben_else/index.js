@@ -16,3 +16,7 @@ function main() {
         console.log("The number is zero")
     } else {
         console.log("The number is not zero")
+    }
+}
+
+main()
