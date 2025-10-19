@@ -8,7 +8,7 @@ let bananaWeight = 0.22
 let appleWeight = 0.34
 
 
-function main() {
+function main(){
 
 function priceToLog(fruitWeight, fruitPricePerKilo){
 console.log("Preis von " + aussage + fruitWeight * fruitPricePerKilo * number)
