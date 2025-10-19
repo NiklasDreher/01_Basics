@@ -1,35 +1,35 @@
 function main() {
 
 function trafficLight(x) {
-let colour = x;
+let colour = x
 
     if (colour == "green") {
-        console.log("You may go");
+        console.log("You may go")
     }
     if (colour == "yellow") {
-        console.log("Caution!");
+        console.log("Caution!")
     }
     if (colour == "red") {
-        console.log("Stop!");
+        console.log("Stop!")
     }
 }
 
 function randomLight() {
-    let randomColour = "";
+    let randomColour = ""
     
-    let randomNumber = Math.floor(Math.random() * 3);
+    let randomNumber = Math.floor(Math.random() * 3)
     
     if (randomNumber == 0) {
-        randomColour = "green";
+        randomColour = "green"
     }
     if (randomNumber == 1) {
-        randomColour = "yellow";
+        randomColour = "yellow"
     }
     if (randomNumber == 2) {
-        randomColour = "red";
+        randomColour = "red"
     }
 
-    return randomColour;
+    return randomColour
 }
 
 trafficLight(randomLight())
