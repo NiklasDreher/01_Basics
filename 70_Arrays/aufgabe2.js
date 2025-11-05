@@ -1,29 +1,29 @@
-function main(){
+function main() {
     let sum = "Deine Freunde sind: "
     let arr = []
     let lenghtOfArray = parseInt(prompt("Wie viele Freunde hast du? "))
 
-    for(let i = 0; i < lenghtOfArray ; i++){
+    for (let i = 0; i < lenghtOfArray; i++) {
 
-        arr.push(prompt(i  + 1 + " . Freund"))
+        arr.push(prompt(i + 1 + " . Freund"))
     }
 
-     if (lenghtOfArray == 0){
-            sum = "Du hast keine Freunde"
-        } 
+    if (lenghtOfArray == 0) {
+        sum = "Du hast keine Freunde"
+    }
 
-    for(let i = 0; i < arr.length; i++){
-        
-        if (arr.length == 1){
+    for (let i = 0; i < arr.length; i++) {
+
+        if (arr.length == 1) {
             sum = "Dein Freund ist " + arr[0]
-        } else if (i < arr.length -2){
+        } else if (i < arr.length - 2) {
             sum += arr[i] + ", "
-        } else if( i < arr.length - 1){
+        } else if (i < arr.length - 1) {
             sum += arr[i] + " "
-        } else{
+        } else {
             sum += "und " + arr[i]
         }
-        
+
 
     }
 
