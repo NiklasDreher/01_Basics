@@ -18,7 +18,7 @@ along with this program.If not, see < http://www.gnu.org/licenses/gpl.txt>.
 
 function main() {
     let number = 0
-    
+
     if (number > 0) {
         console.log("The number is positive.")
     }
