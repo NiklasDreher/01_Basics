@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+
+}
+
+
+#logo1 {
+
+    color: white;
+    position: absolute;
+    top: 20px;
+
+
+}
+
+#logo2 {
+    background-color: orange;
+    border-radius: 10px;
+    width: 90px;
+    margin: 0 auto;
+    height: 50px;
+    font-weight:800;
+    font-size: 40px;
+    align-items: flex-start;
+    padding-bottom: 9px;
+    padding-left: 9px;
+}

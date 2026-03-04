@@ -1,0 +1,14 @@
+body {
+    min-height: 400px;
+    display: flex;
+    border: 8px solid black;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #0071FF;
+    font-size: 30pt;
+}

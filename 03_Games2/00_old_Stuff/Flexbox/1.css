@@ -1,0 +1,16 @@
+body {
+    min-height: 400px;
+    display: flex;
+    border: 8px solid black;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-direction: flex-start;
+    align-items:center;
+}
+
+.box {
+    height: 100px;
+    width: 70px;
+    background-color: #0071FF;
+    font-size: 30pt;
+}
