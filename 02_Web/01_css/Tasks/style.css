@@ -1,0 +1,76 @@
+.goonbar{
+ background-color: black;
+ height: 80px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ gap: 20px;
+
+}
+.left{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.middle{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.right{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 180px;
+    height: 50px;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-image: url("https://assets.oneweb.mercedes-benz.com/plugin/hp-assets/latest/images/brands/mercedes-benz/logo-140years.webp");
+}
+
+.leftStuff{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+.textboxes{
+    color: white;
+}
+
+
+.pictures{
+    width: 100%;
+    height: 539px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    background-image: url("https://www.mercedes-benz.at/content/dam/austria/passengercars/campaigns/taktik-q2-2026/Stage.jpg/1775558101146.jpg?im=Crop,rect=(125,2531,6375,2656);Resize=(1500,625)");
+}
+
+.neckhurts{
+    background-color: white;
+    width: 100px;
+    height:200px
+}
+
+.heartAndUser{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+}
