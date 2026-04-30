@@ -9,10 +9,14 @@
 
 }
 .left{
+    height: 50px;
     width: 33%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: aqua;
+    align-items:center;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .middle{
@@ -26,9 +30,27 @@
     width: 33%;
     display: flex;
     justify-content: center;
+    height: 50px;
+    background-color: blueviolet;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.logo{
+.AGB{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-image: url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/assets/4.15.0/icons/bds/paragraph/24.svg);;
+}
+
+.search{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-image: url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/assets/4.15.1/icons/bds/search/24.svg);
+}
+    .logo{
     width: 180px;
     height: 50px;
     background-position: center;
@@ -39,7 +61,7 @@
 }
 
 .leftStuff{
-    height: 70px;
+    height: 50px;
     width: 200px;
     display: flex;
     align-items: center;
@@ -67,10 +89,4 @@
     background-color: white;
     width: 100px;
     height:200px
-}
-
-.heartAndUser{
-    width: 20px;
-    height: 20px;
-    background-color: brown;
 }
